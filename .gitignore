@@ -1,0 +1,38 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local archives and generated results
+archive/
+output/
+_build/
+mem_articles*.json
+pdf_manifest.json
+state.json
+*.db
+*.db-*
+*.sqlite*
+*.pdf
+*.csv
+*.log
+
+# Session material and cache copies
+.env
+.env.*
+!.env.example
+_cookiecopy/
+Cookies
+Local State
+*cookies*.json
+*creds*.json
+cache_dump/
+*.dmp
+
+# Editor/OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
